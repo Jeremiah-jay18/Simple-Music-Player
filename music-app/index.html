@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="musicplayer.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i id="opt-btn" class="material-icons">expand_more</i>
+            <span>Now Playing</span>
+            <i id="favorite" class="material-icons blue" title="Add To Favorite Music">favorite_border</i>
+        </div>
+        <div class="options">
+            <i class="material-icons" title="Set As Ringtone">notifications</i>
+            <i class="material-icons" title="Share">share</i>
+            <i class="material-icons" title="Delete">delete</i>
+            <i class="material-icons" title="Song Info">info</i>
+        </div>
+        <div class="img-area">
+            <img src="man1.jpg"class="myimg"alt="">
+        </div>
+        <div class="song-details">
+            <p class="name"></p>
+            <p class="artist"></p>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar"></div>
+            <div class="timer">
+                <span class="current"></span>
+                <span class="duration"></span>
+            </div>
+            <audio src="" class="main-audio"></audio>
+        </div>
+        <div class="controls">
+            <i id="repeat-plist" class="material-icons">repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+        <div class="play-pause">
+            <i class="material-icons">play_arrow</i>
+        </div>
+        <i id="next" class="material-icons">skip_next</i>
+        <i id="more-music" class="material-icons">queue_music</i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i  class="material-icons">queue_music</i>
+                    <span>Music List</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+            </div>
+        <ul>
+    
+        </ul>
+         
+        </div>
+        <div class="lyrics-bar">
+            <i id="lyrics" class="material-icons" title="Click For Lyrics">keyboard_double_arrow_up</i>
+        </div>        
+    </div>
+    <script src="musicplayer.js"></script> 
+        
+    </script>
+    
+</body>
+</html>
